@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "StringFilter",
+      "request": "launch",
+      "mainClass": "ajmac.interview.java.StringFilter",
+      "projectName": "stringfilter"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-TaskManagerApplication<taskmanager>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "ajmac.interview.java.taskmanager.TaskManagerApplication",
+      "projectName": "taskmanager",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=38509 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=taskmanager"
+    }
+  ]
+}

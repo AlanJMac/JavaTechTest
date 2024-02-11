@@ -1,0 +1,101 @@
+.header {
+    background-color: #f0f8ff;
+}
+
+.new-task {
+    max-width: 36rem;
+}
+
+.new-task h4 {
+    text-align: center;
+}
+
+.new-task .btn {
+    width: 25%;
+    margin: 0.5rem auto;
+}
+
+.todo-list {
+    max-width: 50rem;
+    margin: 1rem auto;
+    list-style: none;
+}
+
+.todo-list .title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #696969;
+    color:#f0f9ff;
+    padding: 0.5rem;
+}
+
+.task-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f9ff;
+    padding: 0.5rem;
+    transition: 0.3s;
+}
+.task-row:nth-child(2n) {
+    background-color: #ddeef6;
+}
+.task-row:hover {
+    background-color: #66ccff;
+}
+
+.task-cell {
+    flex: 1;
+    text-align: center;
+}
+
+.delete-task {
+    background-color: red;
+}
+
+.no-tasks-msg {
+    text-align: center;
+}
+
+.error-message {
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    background-color: #ff9999;
+    box-shadow: 0px 0px 1rem black;
+    padding: 1rem;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.modify-task {
+    position: fixed;
+    top: 25%;
+    left: calc(50% - 18rem);
+    width: 36rem;
+    background-color: white;
+    box-shadow: 0px 0px 1rem black;
+    padding: 1rem;
+}
+
+.modify-task .btn {
+    margin: 0.5rem auto;
+}
+
+.filter-tasks {
+    text-align: center;
+}
+
+.filter-tasks input {
+    width: 20rem;
+}
+
+.paginator {
+    text-align: center;
+    margin: 1rem;
+}
