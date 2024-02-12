@@ -8,7 +8,7 @@ Write a Java program to swap two numbers without using the third variable.
 
 ```
 double first = 1.0;
-double second = 2.0<>
+double second = 2.0;
 
 first = first + second;
 second = first - second;
